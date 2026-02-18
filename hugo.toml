@@ -1,0 +1,11 @@
+baseURL = 'https://ndesilets.com/'
+languageCode = 'en-us'
+title = 'ndesilets'
+theme = 'congo'
+
+[params]
+mainSections = ["posts"]
+
+[params.homepage]
+showRecent = true
+recentLimit = 6
