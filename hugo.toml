@@ -3,12 +3,12 @@ languageCode = 'en-us'
 title = 'ndesilets'
 theme = 'congo'
 
-outputs.home = ["HTML", "RSS", "JSON"]
-
 [params]
 mainSections = ["posts"]
 
+[params.author]
+name = 'Nic Desilets'
+
 [params.homepage]
-layout = "simple"
 showRecent = true
 recentLimit = 6

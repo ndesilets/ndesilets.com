@@ -1,0 +1,39 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const tocLinks = Array.from(document.querySelectorAll(".toc a[href^='#']"));
+  if (!tocLinks.length) return;
+
+  const headings = tocLinks
+    .map((a) => {
+      const id = decodeURIComponent(a.hash.slice(1));
+      return document.getElementById(id);
+    })
+    .filter(Boolean);
+  if (!headings.length) return;
+
+  const linkById = new Map(
+    tocLinks.map((a) => [decodeURIComponent(a.hash.slice(1)), a])
+  );
+
+  const setActive = (id) => {
+    tocLinks.forEach((a) => a.classList.remove("toc-active"));
+    const link = linkById.get(id);
+    if (link) link.classList.add("toc-active");
+  };
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+      if (visible[0]) setActive(visible[0].target.id);
+    },
+    {
+      rootMargin: "-20% 0px -65% 0px",
+      threshold: [0.1, 0.5, 1],
+    }
+  );
+
+  headings.forEach((h) => observer.observe(h));
+});
+</script>

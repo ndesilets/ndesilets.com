@@ -3,26 +3,20 @@ title = "2019 Subaru WRX STI - \"OEM+\" Build"
 date = "2023-12-17T23:44:17"
 draft = false
 layout = "page"
+showTableOfContents = true
 +++
 
-## OEM+-but-not-really
+## Background
 
-_It's like OEM+, but not really!_
+I bought this car new in 2019 and for the first 4 years I kept it stock, aside from some exterior parts and a tune. The car was fun to drive but I was always wanting a little more out of it (as we all do). The stock setup with a tune has a nice midrange but falls off towards the top and leaves some to be desired. I've always been into cars growing up but never had a fun one, nor a modified one. I figured I should mod at least one car in my life and so this was it. The car has been paid off, warranty is expired, gas engines and sports cars as we know them are on their way out, our compact SUV EV overlords are coming for us all blah blah blah might as well do it now.
 
-# Background
+_todo: pic here_
 
-I bought this car new in 2019 and pretty much kept it stock aside from some exterior parts and a tune for 4 years until later this year. I've always felt that while the car is good from the factory, I was always wanting a little more out of it (as we all do). The stock setup with a tune has a nice midrange but falls off towards the top and leaves some to be desired. Anyway, long story short I've always been into cars and I figured I should have at least one modded car in my life. The car has been paid off, warranty is expired, gas engines and sports cars as we know them are on their way out, our compact SUV EV overlords are coming for us all blah blah blah might as well do it now.
+### Build Purpose
 
-![49929036791_77ef74602f_o.jpg](https://ndesilets.com/content/images/2023/12/49929036791_77ef74602f.jpg)
-Picture Credit: https://flickr.com/photos/hutchison15/49929036791
+The STI S209 was pretty cool but also very expensive and more or less unobtainium. I later realized it was possible to buy most, if not all, of the suspension parts used in the S209. For those unfamiliar the S206, S207, S208, etc. were previously Japan only exclusives where they take an STI and focus on suspension tuning. Savagegeese described the S209 as the first Subaru they've driven that actually wanted to turn instead of plow straight ahead into a field. So I thought to myself why don't I just buy those parts and then add some of my own changes to make it my own. My original goals were to have something similar to the S209, use OEM parts where it made sense, make it fun to drive, and still stay as a street car without going too overboard.
 
-# Purpose
-
-The STI S209 and previous variants have always interested me and it would be cool to own one of them. Too bad they're unobtainium. So with this build I wanted to create something that is sort of like an S209 but in my own way. It turns out you can buy most, if not all, of the chassis/suspension components that the S209 has from STI in Japan. So I did that minus the struts, springs, and swaybars (TBD). For the exterior I wanted to keep it subtle and not have anything too crazy. To achieve that I opted for mostly OEM/STI exterior parts with a few from the aftermarket.
-
-As for the engine there aren't really OEM+ options for that so your only real options are aftermarket. I was originally going to do full bolt ons with the stock turbo but I figured if I'm going to be spending this much money on an EJ to make just 300-330whp I might as well just get a bigger turbo to make better use of all these parts. So yeah, I did a bunch of research and picked these parts out with the goal of making >350whp without sacrificing too much low end power. Bolt ons with a Dom 1.5 will get you there.
-
-![DSC06441.jpg](https://ndesilets.com/content/images/2023/12/DSC06441-1.jpg)
+_todo: pic here_
 
 **tl;dr:** I wanted to build some sort of wannabe S209 with more power and stick to OEM/STI parts where possible.
 
@@ -30,46 +24,74 @@ As for the engine there aren't really OEM+ options for that so your only real op
 
 _How to not have money._
 
-## Engine
+### Engine
+
+Good for ~380whp on pump gas at 19psi. Could probably do ~430whp on E85. Reliability mods and flex fuel with same power as pump gas to keep it alive for track abuse.
 
 - AEM 340 Fuel Pump
 - COBB 1050x Injectors
 - COBB Fuel Pressure Regulator
 - GrimmSpeed StealthBox Intake
-- COBB Turbo Inlet Hose
-- Blouch 1.5XT-R 10cm 2.4" Inlet Turbo
-- GrimmSpeed EBCS
+- COBB Turbo Inlet
 - GrimmSpeed TMIC
 - Killer B Holy Header w/ V-band Uppipe
+- Blouch 1.5XT-R 10cm 2.4" Inlet Turbo
 - MAPerformance V2 Downpipe w/ GESI Cat
 - ~~GrimmSpeed Resonated Catback~~
 - HKS Super Turbo W-Tail Catback
 - IAG V3 Street AOS
-- Killer B Oil Pan
-- Killer B Oil Pickup
-- Killer B Windage Tray
+- GrimmSpeed EBCS
+- ~~Killer B Oil Pan~~
+- ~~Killer B Oil Pickup~~
+- ~~Killer B Windage Tray~~
+- IAG Comp Oil Pan
+- IAG Oil Control Windage Tray
+- IAG Oil Pickup
+- Perrin Oil Cooler
+- COBB NexGen Flex Fuel Kit
+- COBB Fuel Pressure Sensor
+- Fluidampr
 
-## Drivetrain
+### Drivetrain
+
+Mostly tightens the drivetrain up a bit. Adds some minor NVH but I like the gear whine.
 
 - STI Short Shifter
 - STI Group N Pitch Stop
+- STI Group N Transmission Mount
+- Perrin Shifter Bushings
+- Whiteline Transmission Crossmember Bushings
+- Whiteline Differential Bushing Inserts
+- Cusco Rear Differential Carrier
 
-## Suspension
+### Suspension
+
+These are most of the S209 suspension parts. 2018+ STIs went from a 20mm rear swaybar to a 19mm but the S209 used a 20mm.
 
 - STI Front Draw Stiffener
 - STI Front Strut Brace
 - STI Front Support Brace
 - STI Rear Draw Stiffener
-- STI Rear Draw Guard Bar
 - STI Rear Subframe Brace
-- STI Rear Lateral Link
-- STI Rear Trailing Link
+- STI Rear Lower Control Arm
+- STI Rear Trailing Arm
+- STI Rear Toe Arm
+- STI Extended Rear Subframe Bolts with Stoppers
+- Cygnus X1 Coilovers (8K/8K Swift springs, extended shock bodies)
+- Whiteline Adjustable 20mm Rear Swaybar
+- Whiteline Adjustable Front & Rear Endlinks
 
-## Interior
+### Interior
 
-- JDM Extended Armrest
+Pretty simple here. Stock Recaros were nice for the street but were completely useless at holding me in when actually driving. Wouldn't recommend the extended armrest with a low seat.
 
-## Exterior
+- Subaru JDM Extended Armrest
+- Subaru Ultrasuede Steering Wheel
+- Sparco QRT-R Bucket Seat
+
+### Exterior
+
+Kept it OEM+ where I could.
 
 - STI Front Lip
 - STI Cherry Lip Skirt
@@ -77,53 +99,111 @@ _How to not have money._
 - SubieBros JDM Vented DRL Bezel
 - STI Side Skirts
 - STI Rear Spats
+- STI Wing Gurney Flap
 - Subispeed Red Grille Pinstripe
 - Subieflow Carbon Mirror Caps
 - RallyArmor Mud Flaps
 
 ---
 
-Tuned at Surgeline - 382whp/349wtq at 19psi on 92 octane. Could make a bit more but limited torque to ~350ft-lbs.
+Tuned at Surgeline - 382whp/349wtq at 19psi on 92 octane. Could make a bit more but limited torque to ~350ft-lbs. I later added flex fuel but kept power the same for added knock protection and cooling for abuse. ID 1050x injectors are too small to safely make any more power anyway.
 
-![IMG_9045-edit.jpg](https://ndesilets.com/content/images/2023/12/IMG_9045-edit.jpg)
+_todo: pic here_
 
-https://youtu.be/LzTtWWQPvt0
+https://youtu.be/
 
-## The Future
+{{< youtube LzTtWWQPvt0 >}}
 
-_How to continue not having money._
+## Results
 
-## More Parts
-
-- New wheels for next year. SSR GTX01s?
-- Maybe Ohlins R/T coilovers later on.
-
-For the most part I think this car is more or less finished except for some misc. parts here and there. New wheels soon to replace the heavy OEM ones. I'll consider suspension parts again later but regardless I want to retain factory ride height as much as possible since I don't want low car problems. The combination of the front lip and lip skirt reduced clearance by about ~1.5" or so already and can scrape if you're not careful.
-
-Power-wise I think it has plenty for my purposes and I don't want to do anything else around that at the moment. I feel like if you were to add any more power you can only do so by going with bigger turbos with more lag which I think would start to make the car less good as a daily street car. This current setup seems to be a good compromise between streetability/power.
-
-The next near future goal is to get suspension dialed in for the street/autox and go from there.
-
-## Before and After
+### Before and After
 
 ![IMG_20190331_184156.jpg](https://ndesilets.com/content/images/2023/12/IMG_20190331_184156.jpg)
 ![DSC06444.jpg](https://ndesilets.com/content/images/2023/12/DSC06444.jpg)
 
-## Todo
+### Long Term Impressions
 
-- More pictures and stuff
-- Updates section
+_That'll do pig, that'll do._
 
-## Issues Encountered
+After 4 years of the car being basically stock, and currently 3 years of it being modified, overall I am pretty pleased with how the car turned out and I have no regrets. The car is much more fun to drive in terms of both power and handling while still being a reasonably good street car. The coilovers with spherical bearings, stiffer driveline bushings, and the rear suspension links also being spherical bearings all transmit more NVH into the cabin. While the car didn't have a quiet interior to begin with I wouldn't say this is unbearable by any means, it's just not "nice." None of this matters though once you start driving the car how you should drive it.
+
+The engine is a night and day difference compared to stock. 380whp isn't a ton of power these days but it is definitely enough to have fun with. It makes all the right noises and has a pretty usable powerband. There is some turbo lag still but it's comparable to stock. I will say for autocross the stock turbo might be better in some ways with the same bolt-ons since it would probably spool sooner and probably make more mid-range torque. But on the street/track I think the Dom 1.5's better top-end power is worth it. It builds power all the way to redline. Sometimes I want more but then I have to remind myself that is a never-ending rabbit hole so I'm ignoring that for now.
+
+Suspension wise the car feels much better in how it feels and how it drives. The stiffer bushings, additional bracing, etc. all help contribute to making your steering inputs feel more direct and immediate. The seat holds you in and you feel more through the car. Instead of wanting to push it's easier to get it to rotate. When you overdo it and kick the rear out it's easy to control. Despite having stiffer coilovers the overall ride quality is maybe marginally worse than stock IMO. I was worried it'd be horrible but it's not bad at all for what the car is.
+
+So, all things considered, was it expensive? Yes. Could I have put this money into literally any other platform and made 1 million hp and been the first person in recorded human history to achieve a below 0 second 60-130mph Dragy time? Yes. But if you're into cars, especially modifying them, you already know the entire thing is a waste of money from the start but you do it because it's fun. Or at least that's why I do it. Lighting money on fire _is_ fun, right? At the end of the day, the car is fun to drive and it has been reliable. Wait, what?
+
+So far after 7 years I've had to replace:
+
+- An impact sensor in the driver side B pillar. It just randomly went out right after the warranty expired. But it was an easy fix.
+- An IAG AOS check valve. They don't seem to last long.
+- An e-clip on the wastegate arm when it suddenly left the chat one day.
+
+That's it.
+
+### Subaru Reliability
+
+_Ah yes, everyone's favorite topic._
+
+So far the car is still alive and I've spent the last 3 years beating the shit out of it in the mountains, at autox, and at the track. Conventional wisdom will have you believe that these cars blow up instantly when you look at them wrong. Which, does that happen? Yeah. The meme exists for a reason. Jokes aside, there are millions of these cars and I think it's also important to ask _why_ they blew up and _who_ is blowing them up?
+
+EJs have some quirks and are more sensitive to certain things than other cars. This has all been well documented for nearly 2 decades and all of this knowledge is easily accessible. If you want to build a Subaru that doesn't blow up immediately, just do a quick google search and do some reading. Also talk to a tuner. IMO it basically comes down to this:
+
+- Get a tune if you make significant changes to how air flows through the engine, especially if it's an intake.
+
+- Find a tuner that actually knows how to tune Subarus. Your main goal here is to avoid knock, even more so on the stock pistons. Don't find one that's chasing dyno numbers for Instagram.
+
+- Check your oil. Mine doesn't really burn much oil normally but it can burn a lot in certain scenarios. If you're going to get sticky tires and drive the car hard you will need to make some changes to the oiling system. Also check your PCV system occasionally (this is one of the "certain scenarios").
+
+From what I have seen and heard, my feeling is that most people who blow up their STIs are either not maintaining it or they're doing something they shouldn't. People still to this day run intakes without a tune because it "runs fine so who cares." Yeah, it will run fine, until it won't.
+
+#### Parts and Tunes
+
+Why do these engines need tunes for some parts and other engines don't? Because it's a relatively simple MAF based system where the ECU makes a lot of assumptions about itself. All modern engines use a wideband O2 sensor to make fueling corrections so they can adjust to different conditions and so on. But for EJs this is only true at low engine loads. Once you're in boost the ECU can't make fueling corrections anymore and it has no idea what the actual AFR is. So when the ECU is calibrated to the engine and these assumptions are correct, it works completely fine. When you start changing stuff significantly and the ECU doesn't know about it, things may not be fine.
+
+So why is that? For whatever reason, Subaru decided (probably for emissions) to put the wideband O2 sensor in the header before the turbo. The problem with doing that is when you're in boost and the header is pressurized wideband O2 sensors aren't accurate. So in that scenario the ECU goes into open loop fueling and ignores the wideband O2 sensor. This is where it just looks at the MAF sensor and some other things and goes "I think I have this much air so I'll inject this much fuel" and it has no way of checking AFR. Again, if the ECU is calibrated to the engine this works fine.
+
+Now if you stick a new intake on and completely mess up the MAF scaling you're now playing with fire. It will probably be okay at low engine loads because the ECU will pick up that the fueling is off and make corrections via the wideband O2 sensor. So everything appears to be normal, assuming it's not so far off that it throws a CEL. However, under boost it can't do that and when it falls back to what it's tuned for it is likely running lean. Any turbo engine running lean in boost is going to have a bad time. Most newer turbo cars either use speed density or they have the wideband O2 sensor after the turbo where it should be so they can always make fueling corrections in all scenarios. This is why they can bolt on whatever they want without a tune. USDM EJs are not like this for whatever reason, it's just how it is.
+
+tl;dr: Find a good tuner and listen to them. Get a tune if you are changing something big like the intake, turbo, or downpipe.
+
+#### Oiling
+
+The stock oiling system works fine for the street and driving around normally, and I think for the mountains it's probably fine too. There may be some long term reliability concerns around the oil pickup tube eventually cracking and failing. This seems like only maybe a concern on some older models, idk. If you are going to track the car though and/or run wide sticky 200tw tires this is where I think you will need to make upgrades to the oiling system for the engine to survive.
+
+Under hard cornering oil can very easily slosh up into the valve cover drain ports and eventually start pooling up in the valve covers. It can also start making its way up through the valve cover breathers and through your PCV system. Now all that oil is either being sucked through your intake and being burnt (which also lowers octane) or it's pooling up in your AOS/catch cans. If you lose too much oil in your pan from this your oil pickup will end up sucking in air and then it's game over.
+
+So how do you fix this? Well if you're rich you just buy a Porsche because they fixed this problem by going to a dry sump. Which, if you have a lot of money to blow, yeah you can get a dry sump oiling system for these engines too. If you talk to IAG they highly recommend going to a competition pan for track use, just something that is baffled with one-way flaps to try and keep oil around the oil pickup as much as possible. So that's what I did. I survived on just a normal Killer B oil pan for a couple years but now that I want to track the car more and get the fast 200tw tires I figured it would be a good idea to get a more serious oil pan.
+
+Also if you're going to track the car you should get an oil cooler, otherwise you're fine without one.
+
+#### Temperatures
+
+This applies to any car but yeah just don't let it get too hot. Coolant should stay below 220F ideally and you don't want to be near 230F. Oil temperatures should be <250F ideally and you don't want to be near 270-280F. Keeping the engine cool during hard driving is never a bad idea.
+
+### The Future
+
+_How to continue not having money._
+
+The car at this point is more or less finished I think. Anything more would either be even more expensive than it already is, or it'd just be turning into a track car. Plus I've already spent far too much money on this thing. This section used to be longer but I think I've done all that I want to do at the moment.
+
+If I fully committed to hating money I would get a P2P racing closed-deck short block, ID 1300cc injectors, maybe GSC S1 cams and valves, and then max the turbo out for a usable ~450whp that I can beat on. Or get the newer Blouch 1.5 g2r turbo which sounds like it's good for 10-20 more whp. And then I would get some BBS RE-V7 wheels to finish it.
+
+## Misc.
+
+### Issues Encountered
 
 _Can't do all this without at least one problem._
 
-This section is mostly for ongoing issues that remain TBD for solving them. There are installation issues in the next section.
+This section is mostly for things I ran into with whatever parts I installed.
 
-So far, I really only have two minor issues and one of them is my fault:
+#### Boost Creep
 
-- Boost creep? The wastegate actuator is set to 15lbs as advertised (verified w/ pressure gauge) but my effective wastegate pressure at around 40-45F is 19.5lbs. So right now in the winter months my EBCS is more or less useless since 19psi was supposed to be the high boost map target. At colder temps in the low 30s this increases to 20.5-20.9psi. This turbo wasn't supposed to have boost creep but for whatever reason I do. You may want to consider an EWG to do this proper. I don't know if it's something with my setup yet or if my combination of intake/exhaust parts is too free flowing and the IWG actually doesn't flow enough.
-- I fucked up installing the oil dipstick tube and either unseated or ripped one of the o-rings on it. As a result of that the oil pan weeps a small amount of oil from where the dipstick tube enters the oil pan. An hour or so on the dyno results in a couple little spots on the ground. So I need to re-install the dipstick tube with a fresh set of o-rings before autox season.
+The Blouch Dom 1.5 is advertised as a turbo that won't have boost creep. In my experience that is absolutely not true. Maybe it's something to do with my build, I don't know. With the wastegate arm disconnected and wide open it will still build 8psi on pump gas. On the stock 15psi actuator it will build 19psi, up to 21 if it's 30F out. On a Turbosmart actuator with a 10lb spring it's anywhere from 13-16psi depending on how much ethanol you're running (more ethanol, more boost creep). I just live with it since it's not enough to be a problem. The actual fix is go with an external wastegate.
+
+#### Killer B Oil Pan Leak
+
+When the instructions say "very carefully insert the dipstick tube into the oil pan", you need to be extremely careful about it. Like go as slow as possible. I thought I was being careful but I ended up destroying an o-ring and there was a persistent small leak around where the dipstick tube enters the oil pan. Pulling an oil pan to reseat it was far too much of a pain in the ass to deal with so I just left it. It wasn't enough to become an issue but it was annoying. IAG has a better design around this IMO.
 
 ---
 
@@ -199,7 +279,7 @@ When people say this sucks, it's because it does suck. It is doable by yourself 
 
 ### Turbo
 
-Had to learn the hard way that a stock location turbo, while it does fit in the stock location, doesn't mean stock fitment. Things aren't just going to bolt in and fit just as they did before. The Blouch 1.5XT-R is a good bit larger than the stock turbo and this can create some fitment issues depending on what other parts you have. Installation is mostly straight-forward but you are likely going to run into a few issues:
+Had to learn the hard way that a stock location turbo, while it does fit in the stock location, doesn't mean stock fitment. Things aren't just going to bolt in and fit just as they did before. The Blouch 1.5XT-R is a good bit larger than the stock turbo and this can create some fitment issues depending on what other parts you have. Installation is mostly straightforward but you are likely going to run into a few issues:
 
 - With this turbo you will probably need to grind down the turbine housing a bit in order to get it to clear the flange nut for the uppipe stud closest to the wheel well. I used a dremel with a drum sander and it turned out pretty okay.
   - ![IMG_8574.jpg](https://ndesilets.com/content/images/2023/12/IMG_8574.jpg)
@@ -208,7 +288,7 @@ Had to learn the hard way that a stock location turbo, while it does fit in the 
 
 - You will also need a reducer for the wastegate actuator nipple. If I ever remember the sizes I'll update this. For now I was able to find something that worked for me at AutoZone.
 
-- The stock intake elbow pipe will be too short so you will need to get a new 2" silicon elbow pipe and cut it to length. The stock one seems like it'll fit but it ends up being slightly too short when trying to get it onto the turbo.
+- The stock intake elbow pipe will be too short so you will need to get a new 2" silicone elbow pipe and cut it to length. The stock one seems like it'll fit but it ends up being slightly too short when trying to get it onto the turbo.
 
 - If you are using this with an IAG AOS and GrimmSpeed TMIC you will need to get a little creative with pcv hose routing. I don't remember which hose it is atm, but the one that would normally run in between the compressor housing/intercooler will get pinched and you'll need to route it a different way.
 
@@ -228,6 +308,6 @@ Requires a lot of finagling to install, give yourself a couple/few hours. Don't 
 
 ### AOS
 
-The IAG V3 AOS looks daunting to install and initially seemed difficult, especially looking at the 100+ steps in the guide. It's actually not that bad as long as you have a set of your own constant tension hose clamps. The IAG supplied clamps are mostly fine but are sometimes a pain to deal with unless you have their special pliers. There are however a couple of supplied ring clamps for the block breather hose that were extremely difficult/infuriating to install. I tossed those ring clamps and used my own constant tension clamps and it was pretty much smooth sailing after that. That ring clamps issue was about the only real problem I had. The rest is just disconnecting/connecting hoses and rerouting some of them.
+The IAG V3 AOS looks daunting to install and initially seemed difficult, especially looking at the 100+ steps in the guide. It's actually not that bad as long as you have a set of your own constant tension hose clamps. The IAG supplied clamps are mostly fine but are sometimes a pain to deal with unless you have their special pliers. There are however a couple of supplied ring clamps for the block breather hose that were extremely difficult/infuriating to install. I tossed those ring clamps and used my own constant tension clamps and it was pretty much smooth sailing after that. Those ring clamp issues were about the only real problems I had. The rest is just disconnecting/connecting hoses and rerouting some of them.
 
 If your STI has ring clamps from the factory on the PCV hoses you can just pull them off without cutting the hose or the clamps. It might not seem like you can, but you can.
