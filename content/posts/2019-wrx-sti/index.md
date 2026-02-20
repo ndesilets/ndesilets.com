@@ -136,8 +136,8 @@ So, all things considered, was it expensive? Yes. Could I have put this money in
 So far after 7 years I've had to replace:
 
 - An impact sensor in the driver side B pillar. It just randomly went out right after the warranty expired. But it was an easy fix.
-- An IAG AOS check valve. They don't seem to last long.
-- An e-clip on the wastegate arm when it suddenly left the chat one day.
+- An IAG AOS check valve.
+- An e-clip on the wastegate arm when it left the chat one day.
 
 That's it.
 
@@ -145,9 +145,9 @@ That's it.
 
 _Ah yes, everyone's favorite topic._
 
-So far the car is still alive and I've spent the last 3 years beating the shit out of it in the mountains, at autox, and at the track. Conventional wisdom will have you believe that these cars blow up instantly when you look at them wrong. Which, does that happen? Yeah. The meme exists for a reason. Jokes aside, there are millions of these cars and I think it's also important to ask _why_ they blew up and _who_ is blowing them up?
+So far the car is still alive and I've spent the last 3 years beating the shit out of it in the mountains, at autox, and at the track. Conventional wisdom will have you believe that these cars blow up instantly when you look at them wrong. Which, does that happen? Yeah. The meme exists for a reason. But really though, there are hundreds of thousands of these cars and I think it's also important to ask _why_ they blew up and _who_ is blowing them up?
 
-EJs have some quirks and are more sensitive to certain things than other cars. This has all been well documented for nearly 2 decades and all of this knowledge is easily accessible. If you want to build a Subaru that doesn't blow up immediately, just do a quick google search and do some reading. Also talk to a tuner. IMO it basically comes down to this:
+EJs have some deficiencies and are more sensitive to certain things than other cars. This has all been well documented for nearly 2 decades and all of this knowledge is easily accessible. If you want to build a Subaru that doesn't blow up immediately, just do a quick google search and do some reading. Also talk to a tuner. IMO it basically comes down to this:
 
 - Get a tune if you make significant changes to how air flows through the engine, especially if it's an intake.
 
@@ -155,31 +155,37 @@ EJs have some quirks and are more sensitive to certain things than other cars. T
 
 - Check your oil. Mine doesn't really burn much oil normally but it can burn a lot in certain scenarios. If you're going to get sticky tires and drive the car hard you will need to make some changes to the oiling system. Also check your PCV system occasionally (this is one of the "certain scenarios").
 
+- If you're looking for something bulletproof like a 2JZ, this is probably not the car for you.
+
 From what I have seen and heard, my feeling is that most people who blow up their STIs are either not maintaining it or they're doing something they shouldn't. People still to this day run intakes without a tune because it "runs fine so who cares." Yeah, it will run fine, until it won't.
 
 #### Parts and Tunes
 
-Why do these engines need tunes for some parts and other engines don't? Because it's a relatively simple MAF based system where the ECU makes a lot of assumptions about itself. All modern engines use a wideband O2 sensor to make fueling corrections so they can adjust to different conditions and so on. But for EJs this is only true at low engine loads. Once you're in boost the ECU can't make fueling corrections anymore and it has no idea what the actual AFR is. So when the ECU is calibrated to the engine and these assumptions are correct, it works completely fine. When you start changing stuff significantly and the ECU doesn't know about it, things may not be fine.
+Why do these engines need tunes for some parts and other engines don't? Because it's a relatively simple MAF based system where the ECU makes a lot of assumptions about itself. All modern engines use a wideband O2 sensor to make fueling corrections so they can adjust to different conditions and so on. But for EJs this is only true at low engine loads. Once you're in boost the ECU can't make fueling corrections anymore and it has no idea what the actual AFR is. So when the ECU is calibrated to the engine and these assumptions are correct, it works fine. When you start changing stuff significantly and the ECU doesn't know about it, things may not be fine.
 
 So why is that? For whatever reason, Subaru decided (probably for emissions) to put the wideband O2 sensor in the header before the turbo. The problem with doing that is when you're in boost and the header is pressurized wideband O2 sensors aren't accurate. So in that scenario the ECU goes into open loop fueling and ignores the wideband O2 sensor. This is where it just looks at the MAF sensor and some other things and goes "I think I have this much air so I'll inject this much fuel" and it has no way of checking AFR. Again, if the ECU is calibrated to the engine this works fine.
 
-Now if you stick a new intake on and completely mess up the MAF scaling you're now playing with fire. It will probably be okay at low engine loads because the ECU will pick up that the fueling is off and make corrections via the wideband O2 sensor. So everything appears to be normal, assuming it's not so far off that it throws a CEL. However, under boost it can't do that and when it falls back to what it's tuned for it is likely running lean. Any turbo engine running lean in boost is going to have a bad time. Most newer turbo cars either use speed density or they have the wideband O2 sensor after the turbo where it should be so they can always make fueling corrections in all scenarios. This is why they can bolt on whatever they want without a tune. USDM EJs are not like this for whatever reason, it's just how it is.
+Now if you stick a new intake on and completely mess up the MAF scaling now your engine has an incorrect reading of how much air it has. It will probably be okay at low engine loads because the ECU will pick up that the fueling is off and make corrections via the wideband O2 sensor. So everything appears to be normal assuming it's not so far off that it throws a CEL. However, under boost it can't do that and when it falls back to what it's tuned for it is likely running lean. Any turbo engine running lean in boost is going to have a bad time. Most newer turbo cars either use speed density or they have the wideband O2 sensor after the turbo where it should be so they can always make fueling corrections in all scenarios. This is why they can bolt on whatever they want without a tune. USDM EJs are not like this for whatever reason, it's just how it is.
 
-tl;dr: Find a good tuner and listen to them. Get a tune if you are changing something big like the intake, turbo, or downpipe.
+**tl;dr**: Find a good tuner and listen to them. Get a tune if you are changing something big like the intake, turbo, or downpipe.
 
 #### Oiling
 
-The stock oiling system works fine for the street and driving around normally, and I think for the mountains it's probably fine too. There may be some long term reliability concerns around the oil pickup tube eventually cracking and failing. This seems like only maybe a concern on some older models, idk. If you are going to track the car though and/or run wide sticky 200tw tires this is where I think you will need to make upgrades to the oiling system for the engine to survive.
+The stock oiling system works fine for the street and driving around normally, and I think for the mountains it's probably fine too. There may be some long term reliability concerns around the oil pickup tube eventually cracking and failing. This seems like only maybe a concern on some older models, but idk. If you are going to track the car though and/or run wide sticky 200tw tires this is where I think you will need to make upgrades to the oiling system for the engine to survive.
 
-Under hard cornering oil can very easily slosh up into the valve cover drain ports and eventually start pooling up in the valve covers. It can also start making its way up through the valve cover breathers and through your PCV system. Now all that oil is either being sucked through your intake and being burnt (which also lowers octane) or it's pooling up in your AOS/catch cans. If you lose too much oil in your pan from this your oil pickup will end up sucking in air and then it's game over.
+Under hard cornering oil can very easily slosh up into the valve cover drain ports and eventually start pooling up in the valve covers. It can also start making its way up through the valve cover breathers and through your PCV system. Now all that oil is either being sucked through your intake and being burnt (which also lowers octane) or it's pooling up in your AOS/catch cans. If you lose too much oil in your pan from this your oil pickup will end up sucking in air and then it's game over. If you're not checking your oil and it's already low to begin with, you've just made the problem worse.
 
 So how do you fix this? Well if you're rich you just buy a Porsche because they fixed this problem by going to a dry sump. Which, if you have a lot of money to blow, yeah you can get a dry sump oiling system for these engines too. If you talk to IAG they highly recommend going to a competition pan for track use, just something that is baffled with one-way flaps to try and keep oil around the oil pickup as much as possible. So that's what I did. I survived on just a normal Killer B oil pan for a couple years but now that I want to track the car more and get the fast 200tw tires I figured it would be a good idea to get a more serious oil pan.
 
 Also if you're going to track the car you should get an oil cooler, otherwise you're fine without one.
 
+**tl;dr**: If you're going to beat the shit out of the car, get a good oil pan and maybe an oil cooler.
+
 #### Temperatures
 
-This applies to any car but yeah just don't let it get too hot. Coolant should stay below 220F ideally and you don't want to be near 230F. Oil temperatures should be <250F ideally and you don't want to be near 270-280F. Keeping the engine cool during hard driving is never a bad idea.
+This applies to any car but yeah don't let it get too hot. Coolant should stay below 220F ideally and you don't want to be near 230F. Oil temperatures should be <250F ideally and you don't want to be near 270-280F. Keeping the engine cool during hard driving is never a bad idea.
+
+**tl;dr**: You should be able to read 4 sentences.
 
 ### The Future
 
@@ -189,7 +195,11 @@ The car at this point is more or less finished I think. Anything more would eith
 
 If I fully committed to hating money I would get a P2P racing closed-deck short block, ID 1300cc injectors, maybe GSC S1 cams and valves, and then max the turbo out for a usable ~450whp that I can beat on. Or get the newer Blouch 1.5 g2r turbo which sounds like it's good for 10-20 more whp. And then I would get some BBS RE-V7 wheels to finish it.
 
-## Misc.
+---
+
+## Misc. Parts Notes
+
+Random notes for why I picked some parts and/or my experiences with them so far.
 
 ### Issues Encountered
 
@@ -201,31 +211,25 @@ This section is mostly for things I ran into with whatever parts I installed.
 
 The Blouch Dom 1.5 is advertised as a turbo that won't have boost creep. In my experience that is absolutely not true. Maybe it's something to do with my build, I don't know. With the wastegate arm disconnected and wide open it will still build 8psi on pump gas. On the stock 15psi actuator it will build 19psi, up to 21 if it's 30F out. On a Turbosmart actuator with a 10lb spring it's anywhere from 13-16psi depending on how much ethanol you're running (more ethanol, more boost creep). I just live with it since it's not enough to be a problem. The actual fix is go with an external wastegate.
 
+This does have an interesting upside when running with the boost controller off on E60-70. When the turbo first spools at 10psi it makes 280ft-lb and carries that all the way to redline. The boost creep gradually builds up to 15-16psi and offsets the torque curve naturally falling off keeping it flat. So it's a nice linear 350-360whp that isn't stressing the engine from a torque perspective. This is what I use for the track. Otherwise for street/autox I just run 19psi all the time and it peaks at 360ft-lb.
+
 #### Killer B Oil Pan Leak
 
-When the instructions say "very carefully insert the dipstick tube into the oil pan", you need to be extremely careful about it. Like go as slow as possible. I thought I was being careful but I ended up destroying an o-ring and there was a persistent small leak around where the dipstick tube enters the oil pan. Pulling an oil pan to reseat it was far too much of a pain in the ass to deal with so I just left it. It wasn't enough to become an issue but it was annoying. IAG has a better design around this IMO.
-
----
-
-## Misc. Notes
-
-This is broken up into two sections: Parts and Installation.
-
-## Parts
-
-Random notes for why I picked some parts and/or my experiences with them so far.
+When the instructions say "very carefully insert the dipstick tube into the oil pan", you need to be extremely careful. Like go as slow as possible. I thought I was being careful but I ended up destroying an o-ring and there was a persistent small leak around where the dipstick tube enters the oil pan. This is apparently fairly common with these. Pulling an oil pan to reseat it was far too much of a pain in the ass to deal with so I just left it. It wasn't enough to become an issue but it was annoying. IAG has a better design around this IMO and is overall easier to install/remove since they use an o-ring gasket instead of relying on RTV.
 
 ### Arm rests
 
-If you are an adult that is larger than the size of a baby then the JDM extended armrest is an absolute must if you want a functional armrest. It raises the height and extends it forward while also giving you a little extra storage compartment.
+If you are an adult that is larger than the size of a baby then the JDM extended armrest is an absolute must if you want a functional armrest. It raises the height and extends it forward while also giving you an extra little storage compartment. However, if you end up getting a low mounted bucket seat it kind of gets in the way with shifting.
 
 ### Front Bumper Bezels
 
 Initially I cheaped out and bought a set of aftermarket DRL bezels that looked pretty close to OEM but added a JDM-style DRL for a good price. Fitment was decent and they looked good but eventually they started forming a lot of little cracks. OEM bezels, while more expensive, are a much better fit and finish and are designed to last. Buy once cry once.
 
+If you end up with one bezel that seems to pop out frequently it might be because you missed one of the inner tabs. It'll look like it's in place but it's not. Just reseat it and pay attention to the inner tabs and you should be fine.
+
 ### Air Intake
 
-I went with GrimmSpeed mainly due to the design of it where it pulls in air from outside the engine bay and still retains the air straightener for the MAF. I don't know how much of a difference the MAF air straightener actually makes but it seems like a good idea. As a bonus, if you have a '20+ front bumper bezel you can remove the back panel on the bezel to allow more air into the passenger wheel well area. The air filter sits slightly below the headlight so water intake shouldn't really be a concern. If you blast some poor soul on the sidewalk ramming through a large puddle though you might need new rods, so maybe don't do that.
+I went with GrimmSpeed mainly due to the design of it where it pulls in air from outside the engine bay and still retains the air straightener for the MAF. I don't know how much of a difference the MAF air straightener actually makes but the engineers put it there for a reason so I wanted it. As a bonus, if you have a '20+ front bumper bezel you can remove the back panel on the bezel to allow more air into the passenger wheel well area. The air filter sits slightly below the headlight so water intake shouldn't really be a concern. If you blast some poor soul on the sidewalk ramming through a large puddle though you might need new rods, so maybe don't do that. So after after three years I have not had any issues with water and I live in the PNW where it rains a lot.
 
 ![IMG_9009.jpg](https://ndesilets.com/content/images/2023/12/IMG_9009.jpg)
 
@@ -236,23 +240,19 @@ The stock 2019 air box is decently audible already IMO but this will make it mor
 
 ### Equal Length Header
 
-Went with a Killer B Holy header due to their choice of using 321 stainless steel (more resistant to cracking from higher EGTs in turbo engines over 304) and also the equal length design. I do kind of miss the classic unequal length Subaru sound but this still sounds pretty good to me and has a bit of a unique note still. Plus it's different from the Subaru rumble that I hear all the time anyway living in the PNW. Sound aside, an equal length header just seems better in every other aspect and is probably a reliability mod in itself. You lose the rumble but I feel like you gain so much more (better flow, better scavenging, more consistent EGTs, consistent cylinder temps, more top end, etc.)
+Went with a Killer B Holy header due to their choice of using 321 stainless steel (more resistant to cracking from higher EGTs in turbo engines over 304) and also the equal length design. It's expensive but I think it's expensive for a reason. I don't really miss the classic Subaru rumble but that might be because I've heard it for several years at this point in the PNW. It still has a hint of it in the exhaust note and overall I think it still sounds good. Sound aside, an equal length header just seems better in every measurable aspect and is probably a reliability mod in itself. You lose the rumble but I feel like you gain so much more (better flow, better scavenging, more consistent EGTs, more consistent cylinder temps, more top end, etc.).
 
 ### Turbo
 
 The stock turbo with stock parts has pretty good mid range torque starting around 3-3.5K but feels like it dies off towards the top. I wanted something that would give me more top end power without taking away too much away from the low end. The combination of an equal length header and free flowing intake/exhaust with a Dom 1.5 gives you something that feels similar to stock around 3-3.5K except it keeps building power all the way to redline. The 10cm turbine housing I opted for might be a little oversized for the stock heads/cams so the 8cm housing might have been a better choice for me. A 20g would also probably be a good option. That being said, I don't regret getting the Dom 1.5 10cm.
 
+As mentioned earlier, I think if you put an equal length header and a downpipe on a stock turbo it's for sure going to spool faster. But it's still going to fall off at the top, so it depends on what you want.
+
 ### Catback
 
-~~I wanted something relatively quiet and the GrimmSpeed resonated catback is marketed as basically that. The quality is great, the install was easy, and it sounds pretty good when you're on it without being obnoxiously loud. Don't get me wrong, it is definitely still loud especially with the rest of my parts but not like an ETS Extreme or whatever. The mufflers are pretty large but they're a straight-through design so you have all the flow.~~
+I originally started off with a GrimmSpeed resonated catback on this car. I liked it, sounded good and wasn't obnoxiously loud. At first I told myself "oh yeah, this is great." But after a few highway trips cruising around ~2800rpm the drone at that rpm range was killing me. It was bad enough people did not like sitting in the back. Soon I realized "actually, this is terrible."
 
-~~There is some drone in my setup around 2500-3000rpm. It's not unbearable but it's definitely present and passengers will notice it. I suspect this is partially due to using the polyurethane hangers that it came with since all that noise/vibration is being transmitted more easily into the trunk area now. In the future I'm going to try swapping the poly hangers out with the stock rubber ones/play with sound deadening to see if that reduces some of the drone.~~
-
-~~Anyway, my verdict is if you're mainly the only one in your car the GrimmSpeed resonated catback isn't too bad and sounds good at WOT. I wish it was a little bit quieter overall but I'm fine with it given all the other parts that I have. If you're frequently driving non-car people around I would look for a quieter option. If you're looking for something that's "like stock but a little louder" that's probably only going to be true if you have a stock header/downpipe.~~
-
-I installed an HKS Super Turbo W-Tail catback and it is a night and day difference compared to the GrimmSpeed resonated catback. It's much quieter and doesn't drone around 2500-3000rpm. I tried to convince myself the GrimmSpeed one wasn't that bad at first because it sounded great otherwise but the more I drove it the more I started to hate the drone and the copium wore off. Anyway, would highly recommend this HKS catback if you can find it on sale since it's pricey otherwise.
-
-The only thing to really note on it is that while it's advertised as a 3" catback it actually necks down to 2.5" right at the downpipe flange and uses a donut gasket like the OEM exhaust. I got an adapter for it and it seems fine so far. Still making the same boost and not sure if I notice much on the butt dyno. In the future I may see if I can modify it to a 2-bolt 3" flange so I have a full 3" TBE again. I'm just happy there's no more drone at the moment.
+I installed an HKS Super Turbo W-Tail catback and it is a night and day difference compared to the GrimmSpeed resonated catback in terms of drone. I used to think it was much quieter but I swear it's gotten louder over several months. Still though, it's not obnoxious and it still doesn't drone. The only thing I don't like about it, is it's advertised as a 3" catback but it necks down to 2.5" right at the downpipe flange because it's designed for the OEM downpipe. I got an adapter for it and it seems fine so far. Not sure if I notice much on the butt dyno. There is a small part of me though that feels like that 2.5" restriction is affecting the top end a tiny bit, but whatever.
 
 ### Oil Pan
 
@@ -267,11 +267,13 @@ From all that I've heard and read, it seems that running 350-400whp while keepin
 
 Josh Bader claims to have had many customers running something like 500-600whp on stock shortblocks, some with over 30-40K tuned miles. My theory is that a proper tune with proper parts at a sane power level should last a good while provided that you maintain it and don't beat the absolute shit out of it 24/7. Time will tell but regardless I have money set aside for when The Bad™ happens.
 
+3 years later: I still think this is largely true. But I don't think the Type RA blocks are anything special from the sounds of it.
+
 ---
 
 ## Installation
 
-Some things to consider if you plan on doing these things yourself. Written from the perspective of someone who doesn't know what the hell they're doing (me).
+Some things to consider if you plan on doing these things yourself. Written from the perspective of someone who started off not knowing what the hell they were doing (and I still don't).
 
 ### Injectors
 
@@ -281,33 +283,35 @@ When people say this sucks, it's because it does suck. It is doable by yourself 
 
 Had to learn the hard way that a stock location turbo, while it does fit in the stock location, doesn't mean stock fitment. Things aren't just going to bolt in and fit just as they did before. The Blouch 1.5XT-R is a good bit larger than the stock turbo and this can create some fitment issues depending on what other parts you have. Installation is mostly straightforward but you are likely going to run into a few issues:
 
-- With this turbo you will probably need to grind down the turbine housing a bit in order to get it to clear the flange nut for the uppipe stud closest to the wheel well. I used a dremel with a drum sander and it turned out pretty okay.
+- With this turbo you will may need to grind down the turbine housing a bit in order to get it to clear the flange nut for the uppipe stud closest to the wheel well. I used a dremel with a drum sander and it turned out pretty okay.
   - ![IMG_8574.jpg](https://ndesilets.com/content/images/2023/12/IMG_8574.jpg)
 
   - ![IMG_8635-converted.jpg](https://ndesilets.com/content/images/2023/12/IMG_8635-converted.jpg)
 
-- You will also need a reducer for the wastegate actuator nipple. If I ever remember the sizes I'll update this. For now I was able to find something that worked for me at AutoZone.
+- You will also need a reducer for the wastegate actuator nipple. If I ever remember the sizes I'll update this. For now I was able to find something that worked for me at Autozone.
 
 - The stock intake elbow pipe will be too short so you will need to get a new 2" silicone elbow pipe and cut it to length. The stock one seems like it'll fit but it ends up being slightly too short when trying to get it onto the turbo.
 
 - If you are using this with an IAG AOS and GrimmSpeed TMIC you will need to get a little creative with pcv hose routing. I don't remember which hose it is atm, but the one that would normally run in between the compressor housing/intercooler will get pinched and you'll need to route it a different way.
 
-- I wasn't able to install the turbo heatshield bracket (so no heatshield atm) because of the increased flange thickness between the turbo and downpipe. I need to find slightly longer bolts for that. For now I have just a turbo blanket.
+- I wasn't able to install the turbo heatshield bracket (so no heatshield atm) because of the increased flange thickness between the turbo and downpipe. I need to find slightly longer bolts for that. For now I have just a turbo blanket. Edit: I got longer bolts and it's fine now.
 
-- When paired with a GrimmSpeed TMIC without the extra shroud they sell (and combined with the above bullet point) there will be a small gap on the passenger side of the intercooler in the hood scoop that will let water fall onto the turbine housing and uppipe studs, which will rust easily. I ended up installing the shroud to alleviate some of this and for better flow into the TMIC but having a heatshield is pretty important to protect the housing/studs from rust IMO.
+- When paired with a GrimmSpeed TMIC without the extra shroud they sell (and combined with the above bullet point) there will be a small gap on the passenger side of the intercooler in the hood scoop that will let water fall onto the turbine housing and uppipe studs, which will rust easily. I ended up installing the shroud to alleviate some of this and for better flow into the TMIC but having a heatshield is pretty important to protect the housing/studs from rust IMO. Edit: I think it's going to rust anyway, but the shroud is still a good idea.
 
-- Not related to the turbo specifically, but if you order the Killer B uppipe studs like I did you'll find out that they're too long. Flip the studs near the turbo flange otherwise your downpipe isn't going to clear them.
+- Not related to the turbo specifically, but if you order the Killer B uppipe studs like I did you'll find out that they're too long. Flip the studs near the turbo flange if your downpipe doesn't clear them.
 
 ### Oil Pan
 
-This also was not fun mainly due to the 4 rear bolts being in a very difficult spot. You need to jack the engine up off the mounts an inch or two to even be able to get to them. After that good luck don't lose your fingers. If you thought they were a pain to get to with the stock oil pan just wait until you put a larger one on. Also be careful installing the dipstick tube into the oil pan and do it slowly. Make sure the o-rings are lubricated. If those o-rings tear it's going to be a bit of a pain to fix it later on. Of all the parts in this installation, this is probably the one I'd recommend having a shop that knows what they're doing install for you. But if you're stubborn like me you can do it.
+This also was not fun mainly due to the 4 rear bolts being in a very difficult spot. You need to jack the engine up off the mounts an inch or two to even be able to get to them. After that good luck don't lose your fingers. Would recommend putting a block of some sort in between the engine mounts and the crossmember. If you thought they were a pain to get to with the stock oil pan just wait until you put a larger one on. Also be careful installing the dipstick tube into the oil pan and do it slowly. Make sure the o-rings are lubricated. If those o-rings tear it's going to be a huge pain to fix it later on. Of all the parts in this installation, this is probably the one I'd recommend having a shop that knows what they're doing install for you. But if you're stubborn like me you can do it.
+
+Looking back at this 3 years later and after having changed the oil pan again, yeah it still sucks. Getting the pan off is the worst part because of RTV. However, if you use the IAG pans you won't have to deal with RTV next time (it still uses some, but only a tiny amount in 2 spots). Now that I have an IAG pan on I don't think it will be nearly as bad to take it off if I need to again.
 
 ### COBB Turbo Inlet
 
-Requires a lot of finagling to install, give yourself a couple/few hours. Don't need to pull the manifold for this.
+Requires a lot of finagling to install, give yourself a couple/few hours. Don't need to pull the intake manifold for this, you're just going to be extremely annoyed. It's an exercise in persistence.
 
 ### AOS
 
-The IAG V3 AOS looks daunting to install and initially seemed difficult, especially looking at the 100+ steps in the guide. It's actually not that bad as long as you have a set of your own constant tension hose clamps. The IAG supplied clamps are mostly fine but are sometimes a pain to deal with unless you have their special pliers. There are however a couple of supplied ring clamps for the block breather hose that were extremely difficult/infuriating to install. I tossed those ring clamps and used my own constant tension clamps and it was pretty much smooth sailing after that. Those ring clamp issues were about the only real problems I had. The rest is just disconnecting/connecting hoses and rerouting some of them.
+The IAG V3 AOS looks daunting to install and initially seemed difficult, especially looking at the 100+ steps in the guide. It's actually not that bad as long but make sure you have a set of your own constant tension hose clamps. The IAG supplied clamps are not great and can be a pain to deal with unless you have their special pliers. There are a couple of supplied clamps for the block breather hose that were extremely difficult/infuriating to install. I tossed those ring clamps and used my own and it was pretty much smooth sailing after that. Those ring clamp issues were about the only real problems I had. The rest is just disconnecting/connecting hoses and rerouting some of them.
 
 If your STI has ring clamps from the factory on the PCV hoses you can just pull them off without cutting the hose or the clamps. It might not seem like you can, but you can.
